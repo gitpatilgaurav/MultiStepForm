@@ -1,0 +1,13 @@
+
+.step-5 {
+    /* display: none; */
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .step-5 button {
+    display: none;
+  }
+  

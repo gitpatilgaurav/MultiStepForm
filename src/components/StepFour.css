@@ -1,0 +1,49 @@
+.step-4 {
+    /* display: none; */
+    width: 90%;
+  }
+  .selection-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+  .selection-container {
+    background-color: hsl(217, 100%, 97%);
+    padding: 1.5rem;
+    /* border: 2px solid hsl(213, 96%, 18%); */
+  }
+   .selected {
+    border: 2px solid hsl(213, 96%, 18%);
+    background-color: hsl(217, 100%, 97%);
+  
+  }
+  .selected-plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: hsl(213, 96%, 18%);
+    font-weight: 700;
+  }
+  .selected-addon {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: hsl(231, 11%, 63%);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  .selected-addon .servic-price {
+    color: hsl(213, 96%, 18%);
+  }
+  .total {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: hsl(231, 11%, 63%);
+  }
+  .total b {
+    color: hsl(228, 100%, 84%);
+    font-size: 1.2rem;
+  }

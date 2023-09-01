@@ -1,0 +1,86 @@
+.step2 {
+  /* display: none; */
+  width: 80%;
+
+  padding-left: 2rem;
+}
+.step2 form {
+  /* display: flex; */
+  /* flex: 1;
+  align-items: center;
+  gap: 2rem; */
+}
+
+.fixCss{
+   display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+
+.free {
+  color: hsl(213, 96%, 18%);
+  font-size: 0.7rem;
+}
+
+.plan-card {
+  border: 2px solid lightgray;
+  border-radius: 7px;
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.plan-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.plan-info b {
+  color: hsl(213, 96%, 18%);
+}
+.plan-info span {
+  color: hsl(231, 11%, 63%);
+  font-size: 0.8rem;
+}
+.monthly,
+.yearly {
+  color: hsl(231, 11%, 63%);
+  font-weight: 500;
+}
+.sw-active {
+  color: hsl(213, 96%, 18%);
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.prev-stp {
+  margin-top: auto;
+  margin-bottom: 1rem;
+  border: none;
+  font-weight: 700;
+  background-color: transparent;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  color: hsl(231, 11%, 63%);
+  cursor: pointer;
+}
+.selected {
+  border: 1px solid hsl(213, 96%, 18%);
+  background-color: hsl(217, 100%, 97%);
+
+}
+
+.plan-card:hover {
+  border: 1px solid hsl(213, 96%, 18%);
+}

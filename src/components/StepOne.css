@@ -1,0 +1,59 @@
+.step1 {
+  display: flex;
+  width: 90%;
+  gap: 1rem;
+}
+.step1 form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  margin-top: -50px;
+  gap: 0.9rem;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 2.4rem;
+}
+
+label{
+  margin-top: 1px;
+}
+.label {
+  color: hsl(213, 96%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 1px;
+}
+
+p{
+  margin-bottom: 0;
+}
+.error {
+  color: hsl(354, 84%, 57%);
+  font-size: 0.8rem;
+  padding: 1px;
+   font-weight: 700;
+  margin-top: 8px;
+}
+.onestep {
+  margin-bottom: -80px;
+}
+.step1 form input {
+  padding: 0.8rem;
+  border: 1px solid hsl(231, 11%, 63%);
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.step1 form input:focus {
+  outline-color: hsl(228, 100%, 84%);
+}
+form input::placeholder {
+  font-weight: 500;
+  font-size: 0.8rem;
+  font-family: inherit;
+}
