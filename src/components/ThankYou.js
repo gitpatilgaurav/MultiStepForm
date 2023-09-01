@@ -1,6 +1,6 @@
 import React from 'react'
 import './ThankYou.css'
-import img1 from './assets/images/icon-thank-you.svg'
+import img1 from '../assets/images/icon-thank-you.svg'
 
 export default function ThankYou() {
   return (

@@ -1,8 +1,8 @@
   import React, { useState } from "react";
   import "./StepTwo.css";
-  import img1 from "./assets/images/icon-arcade.svg";
-  import img2 from "./assets/images/icon-advanced.svg";
-  import img3 from "./assets/images/icon-pro.svg";
+  import img1 from "../assets/images/icon-arcade.svg";
+  import img2 from "../assets/images/icon-advanced.svg";
+  import img3 from "../assets/images/icon-pro.svg";
 
   export default function StepTwo(props) {
     const [error, setError] = useState("");
