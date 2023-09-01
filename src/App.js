@@ -10,11 +10,6 @@ import ThankYou from "./components/ThankYou";
 export default function App() {
   const [isYearlyBilling, setIsYearlyBilling] = useState(false);
   const [addon, setAddon] = useState({
-    online: false,
-
-    large: false,
-
-    customize: false,
   });
 
   const [currentStep, setCurrentStep] = useState(1);
